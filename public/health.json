@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/rZLpVpw/Community-Health-Fair.jpg",
+    "name": "Community Health Fair",
+    "title": "A community health fair has one goal in mind: to improve overall community health and teach about health and welfare. Many people can find healthcare overwhelming simply because they don’t have access to valuable learning sources....",
+
+    "details": "A health fair can open this discussion and bring the community together for a healthier future. However, planning a community health fair can be just as overwhelming. This article is here to teach you how to plan a successful community health fair properly. Don’t panic - it’s easier than you think. You already know how to plan for a fall festival successfully.",
+    "price": 190.00
+   
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/X5CL80M/Preventive-Health-Fair.jpg",
+    "name": "Preventive Health Fair",
+    "title": "Preventive Health Fairs are events aimed at promoting health and wellness by offering various screenings, information, and resources to help people stay healthy and prevent potential health issues....",
+    "details": "These events often offer a range of health screenings, such as blood pressure checks, cholesterol level tests, glucose level tests, body mass index (BMI) measurements, and vision screenings. Some may even provide more specialized screenings like bone density scans or skin cancer checks.",
+    "price": 125.00
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/GTSrP2w/Wellness-Festival.jpg",
+    "name": "Wellness Festival",
+    "title": "A Wellness Festival is typically an event that focuses on promoting holistic well-being, encompassing physical, mental, and emotional health. These festivals aim to provide attendees with a variety of activities and resources...",
+
+    "details": "The event's date, time, and venue will be specified in promotional materials. Wellness Festivals can take place indoors or outdoors, often in scenic or natural settings. Wellness Festivals often feature a series of workshops and seminars conducted by experts in various wellness fields. Topics may include yoga, meditation, mindfulness, stress management, nutrition, fitness, and holistic healing. Attendees can participate in fitness classes, such as yoga, Pilates, tai chi, dance, and more. These classes are usually suitable for all levels, including beginners.",
+    "price": 155.00
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/8NTffYJ/Mind-Body-Wellness-Fair.jpg",
+    "name": "Mind-Body Wellness Fair",
+    "title": "A Mind-Body Wellness Fair is an event focused on promoting and nurturing the connection between the mind and body for overall health and well-being.....",
+
+    "details": "These fairs often feature a range of activities, workshops, and resources designed to help attendees improve their mental and physical health. Date and Location: The event's date, time, and venue will be clearly specified in promotional materials. These fairs can take place at various locations, such as community centers, wellness centers, or outdoor settings.  Mind-Body Workshops: Mind-Body Wellness Fairs typically offer a series of workshops and seminars led by experts in fields like psychology, meditation, yoga, and mindfulness. These sessions may focus on stress reduction, emotional well-being, and holistic health practices.",
+    "price": 195.00
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/nswk5Jm/Health-Lifestyle-Fair.jpg",
+    "name": "Health & Lifestyle Fair",
+    "title": "A Health & Lifestyle Fair is an event that typically focuses on promoting overall well-being by providing information, resources, and activities related to health....",
+
+    "details": "Date and Location: The event's date, time, and venue will be clearly specified in promotional materials. Health & Lifestyle Fairs can take place in a variety of settings, such as community centers, parks, shopping malls, or sports facilities. Health Screenings: Fairs often offer a range of free or low-cost health screenings, including blood pressure checks, cholesterol level tests, blood glucose measurements, and body mass index (BMI) assessments. These screenings help attendees assess their current health status. Fitness Activities: Attendees can participate in fitness activities and demonstrations, such as group exercise classes, dance workouts, or even fitness challenges. These activities aim to promote physical activity and provide exercise options for all fitness levels.",
+    "price": 250.00
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/Yhqp6pS/Holistic-Health-Fair.jpg",
+    "name": "Holistic Health Fair",
+    "title": "A Holistic Health Fair is an event focused on promoting holistic well-being and alternative approaches to health and wellness. These fairs typically emphasize the interconnectedness....",
+    "details": "Date and Location: The event's date, time, and venue will be specified in promotional materials. Holistic Health Fairs can be held in various settings, including community centers, wellness centers, and outdoor locations. Holistic Health Workshops and Seminars: Experts in holistic health fields, such as naturopathy, traditional Chinese medicine, Ayurveda, and energy healing, often lead workshops and seminars. Topics may cover natural remedies, energy balancing, herbal medicine, and mindfulness practices. Alternative and Complementary Therapies: Practitioners of alternative therapies, such as acupuncture, chiropractic care, Reiki, reflexology, and aromatherapy, may offer demonstrations, consultations, or mini-sessions to attendees.",
+    "price": 185.00
+  }
+  
+]
