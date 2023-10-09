@@ -18,7 +18,7 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: A:{}
+#### Answer: B:`ReferenceError: greetign is not defined`
 
 <i>Write your explanation here</i>
 
