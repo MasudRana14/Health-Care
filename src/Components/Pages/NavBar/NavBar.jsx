@@ -58,7 +58,7 @@ const NavBar = () => {
                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
             }
         >
-          About
+          About Us
         </NavLink>
  
         </a>
@@ -85,7 +85,7 @@ const NavBar = () => {
                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
             }
         >
-           Doctors
+         Our Team
         </NavLink>
         </a>
     </li>

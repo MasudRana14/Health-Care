@@ -12,7 +12,7 @@ const MainLayout = () => {
            
             </div>
 
-          <div className="">
+          <div className="max-w-7xl mx-auto">
           <Footer></Footer>
           </div>
 
