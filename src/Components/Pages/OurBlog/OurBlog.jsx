@@ -6,10 +6,10 @@ const OurBlog = () => {
         
         <div>
 
-            <h1 className="text-center mt-10 font-bold text-4xl text-blue-600">Health <span className="text-green-500">Care</span> Event <span className="text-green-500">Health Blog</span></h1>
+            <h1 className="text-center mt-10 font-bold text-4xl text-blue-600 ">Health <span className="text-green-500">Care</span> Event <span className="text-green-500">Health Blog</span></h1>
 
 
-            <div className="mt-16 mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-16 mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
 
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -89,7 +89,7 @@ const OurBlog = () => {
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">How Recent Surgery Is Affecting My Mental Health</h5>
                         </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">It can be hard to remember that hope is medicine. When someone is first diagnosed with a mental health condition, it can be difficult to accept, and it can seem as if the life you once knew is no longer possible or accessible to you. That's what it was like when I was first diagnosed with bipolar disorder with psychotic features. I had a similar reaction when I was later diagnosed with chronic paranoid schizophrenia. But now I know that even with schizophrenia, hope is medicine.... </p>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">It can be hard to remember that hope is medicine. When someone is first diagnosed with a mental health condition, it can be difficult to accept, and it can seem as if the life you once knew is no longer possible or accessible to you. Thats what it was like when I was first diagnosed with bipolar disorder with psychotic features. I had a similar reaction when I was later diagnosed with chronic paranoid schizophrenia. But now I know that even with schizophrenia, hope is medicine.... </p>
                         <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Continue Reading
 
