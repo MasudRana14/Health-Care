@@ -1,30 +1,63 @@
-import { Link } from "react-router-dom";
+
 
 const AboutUs = () => {
 
 
     return (
-        <div>
-            <section className="mt-20 mb-20">
+        <div className="max-w-7xl mx-auto mt-14 mb-20">
+            <h1 className="text-4xl font-bold text-center text-blue-600"> Upcoming <span className="text-green-600">Events</span></h1>
+            <hr className="w-1/5 mx-auto border-b-2" />
 
-                <h1 className="text-4xl font-bold text-center text-blue-600">About <span className="text-green-600">Us</span></h1>
-                <hr className="w-1/5 mx-auto border-b-2" />
 
-                <div className="mt-10">
-                    <div className="hero" style={{ backgroundImage: 'url(https://i.ibb.co/qxgDnKG/banner-3.jpg)' }}>
-                        <div className="hero-overlay bg-opacity-60"></div>
-                        <div className="hero-content text-center text-neutral-content">
-                            <div className="w-1/2">
-                                <h1 className="mb-5 text-4xl font-bold text-green-400">We Provide The Your Health is Our Priority.</h1>
-
-                                <p className="mb-5 text-lg">We are dedicated to providing high-quality, compassionate, and patient-centered healthcare services to our community. Our mission is to promote wellness, prevent illness, and provide advanced medical care to enhance the overall well-being of our patients.</p>
-
-                                <Link to="/about"><button className="btn rounded-2xl text-white btn-sm bg-green-600 text-lg hover:bg-blue-600">Read More</button></Link>
-                            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-16">
+        {/* Card 1  */}
+                <div className="card w-96 bg-blue-100 shadow-xl">
+                    <figure><img src="https://i.ibb.co/b1N0jhX/Happy-and-Healthy-Expo.jpg" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title font-bold">
+                            Happy and Healthy Expo
+                        </h2>
+                      
+                        
+                        <div className="card-actions text-xl justify-end text-green-600">
+                            coming soon.!
                         </div>
                     </div>
                 </div>
-            </section>
+                {/* Card 2  */}
+                <div className="card w-96 bg-blue-100 shadow-xl">
+                    <figure><img src="https://i.ibb.co/x58LvQB/Fit-for-Life-Festival.jpg" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title font-bold">
+                        Fit for Life Festival
+                        </h2>
+                      
+                        
+                        <div className="card-actions text-xl justify-end text-green-600">
+                            coming soon.!
+                        </div>
+                    </div>
+                </div>
+                {/* Card 3  */}
+                <div className="card w-96 bg-blue-100 shadow-xl">
+                    <figure><img src="https://i.ibb.co/5BMkP8h/Health-Discovery-Fair.jpg" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title font-bold">
+                        Health Discovery Fair
+                        </h2>
+                      
+                        
+                        <div className="card-actions text-xl justify-end text-green-600">
+                            coming soon.!
+                        </div>
+                    </div>
+                </div>
+
+               
+
+            </div>
+
+
         </div>
     );
 };

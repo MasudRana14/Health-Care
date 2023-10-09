@@ -15,9 +15,11 @@ const About = () => {
                 </div>
             </div>
 
-            {/* card sections  */}
-
-                <p className="text-2xl text-center mt-14 font-medium">Join us at the Community Health Fair, where we're committed to your well-being. <br /> Our event is designed to promote healthier lifestyles, provide valuable health resources, <br /> and foster a sense of community. We believe that good health is a shared responsibility, <br /> and together, we can achieve it.</p>
+            {/* Why Choose Us  */}
+                <div>
+                    <h1 className="text-4xl text-center mt-10 font-bold">Why Choose Us</h1>
+                  
+                </div>
 
             <div className="mt-12 mb-10 ">
                 <div className="card w-96 bg-base-100 shadow-xl">
@@ -32,6 +34,9 @@ const About = () => {
             </div>
 
 
+ {/* card sections  */}
+
+ <p className="text-2xl text-center mt-14 font-medium">Join us at the Community Health Fair, where we're committed to your well-being. <br /> Our event is designed to promote healthier lifestyles, provide valuable health resources, <br /> and foster a sense of community. We believe that good health is a shared responsibility, <br /> and together, we can achieve it.</p>
 
 
         </div>
