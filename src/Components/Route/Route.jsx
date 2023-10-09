@@ -4,7 +4,6 @@ import Home from "../Pages/Home/Home";
 import Details from "../Pages/Details/Details";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
-import PrivateRoute from "./PrivateRoute";
 import About from "../Pages/AboutUs/About";
 import OurTeam from "../Pages/TeamMember/OurTeam";
 import Contact from "../Pages/Contact/Contact";
@@ -24,7 +23,7 @@ import Contact from "../Pages/Contact/Contact";
             },
             {
                 path: "/details/:id",
-                element: <PrivateRoute><Details></Details></PrivateRoute>,
+                element: <Details></Details>,
                 loader: ()=> fetch('/health.json')
             },
             {

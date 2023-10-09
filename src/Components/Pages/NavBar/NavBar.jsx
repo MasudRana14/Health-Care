@@ -30,19 +30,7 @@ const NavBar = () => {
         </NavLink>
      
 
-{
-    user && 
-  
-    <NavLink
-             to="/details"
-             className={({ isActive, isPending }) =>
-                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
-             }
-         >
-           Details
-         </NavLink>      
-    
-}
+
     
    <NavLink
             to="/about"
@@ -68,8 +56,6 @@ const NavBar = () => {
         
     
    }
-
-
 
 
    <NavLink
