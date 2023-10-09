@@ -6,6 +6,8 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import About from "../Pages/AboutUs/About";
+import OurTeam from "../Pages/TeamMember/OurTeam";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -36,6 +38,14 @@ import About from "../Pages/AboutUs/About";
             {
               path:"/about",
               element:<About></About>
+            },
+            {
+              path:"/team",
+              element:<OurTeam></OurTeam>
+            },
+            {
+              path:"/contact",
+              element: <Contact></Contact>
             }
           ]
         },
