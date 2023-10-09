@@ -1,78 +1,93 @@
 import { useContext } from "react";
-import {  Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert";
 
 
 const NavBar = () => {
 
-    const {user, logOut} = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
 
-    const handleSignOut=()=>{
+    const handleSignOut = () => {
         logOut()
-        .then(
-            swal("Good job!", "SignOut Successfully", "success")
-        )
-        .catch()
+            .then(
+                swal("Good job!", "SignOut Successfully", "success")
+            )
+            .catch()
     }
 
 
     const navList = <>
 
-   
-   <NavLink
+
+        <NavLink
             to="/"
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
             }
         >
-           Home
+            Home
         </NavLink>
-     
 
 
-    
-   <NavLink
+
+
+        <NavLink
             to="/about"
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
             }
         >
-          About Us
+            About Us
         </NavLink>
- 
-  
+
+
         {
-    user &&  
-   
-    <NavLink
-             to="/team"
-             className={({ isActive, isPending }) =>
-                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
-             }
-         >
-          Our Team
-         </NavLink>
-        
-    
-   }
+            user &&
+
+            <NavLink
+                to="/team"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+                }
+            >
+                Our Team
+            </NavLink>
 
 
-   <NavLink
+        }
+
+        {
+            user &&
+            <NavLink
+                to="/blog"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+                }
+            >
+                Blog
+            </NavLink>
+
+
+        }
+
+
+
+        <NavLink
             to="/contact"
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-green-500 underline" : ""
             }
         >
-           Contact
+            Contact
         </NavLink>
-       
 
-  
 
-  
 
-        
+
+
+
+
     </>
 
     return (
@@ -101,24 +116,43 @@ const NavBar = () => {
             </div>
             <div className="navbar-end gap-2">
 
-                <div className="avatar">
-                    <div className="w-9 rounded-full">
-                        <img src={user?.photoURL} />
+                {
+                    user && <div className="flex items-center gap-2">
+
+                        <div>
+                        <h2 className="font-medium text-center">{user?.displayName
+                        }</h2>
+                        <h2 className="font-normal">
+                            {user.email}
+                        </h2>
+                        </div>
+                        <div className="avatar">
+                            <div className="w-9 rounded-full">
+                                <img src={user?.photoURL} />
+                                
+                            </div>
+
+                        </div>
+
                     </div>
+                }
+
+
+
+
+
+                <div>
+                    {/* <h2>{user.displayName}</h2> */}
+                    {
+                        user ? <button onClick={handleSignOut} className="btn btn-sm">Sign Out</button>
+                            :
+                            <Link to="/login">
+                                <button className="btn btn-sm">Login</button>
+                            </Link>
+                    }
                 </div>
 
-                      <div>
-                        {/* <h2>{user.displayName}</h2> */}
-                      {
-                            user ?  <button onClick={handleSignOut} className="btn btn-sm">Sign Out</button>
-                            :
-                            <Link to="/login"> 
-                            <button  className="btn btn-sm">Login</button>
-                            </Link>
-                        }
-                      </div>
-                   
-               
+
             </div>
         </div>
     );

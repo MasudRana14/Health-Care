@@ -7,6 +7,8 @@ import Register from "../Pages/Register/Register";
 import About from "../Pages/AboutUs/About";
 import OurTeam from "../Pages/TeamMember/OurTeam";
 import Contact from "../Pages/Contact/Contact";
+import OurBlog from "../Pages/OurBlog/OurBlog";
+import PrivateRoute from "./PrivateRoute";
 
 
 
@@ -36,7 +38,7 @@ import Contact from "../Pages/Contact/Contact";
             },
             {
               path:"/about",
-              element:<About></About>
+              element:<PrivateRoute><About></About></PrivateRoute>
             },
             {
               path:"/team",
@@ -45,6 +47,10 @@ import Contact from "../Pages/Contact/Contact";
             {
               path:"/contact",
               element: <Contact></Contact>
+            },
+            {
+              path:"/blog",
+              element:<OurBlog></OurBlog>
             }
           ]
         },

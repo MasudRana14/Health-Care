@@ -14,15 +14,15 @@ import 'swiper/css/scrollbar';
 
     return (
         <Swiper
-        // install Swiper modules
+       
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => ('')}
+        onSlideChange={() => ('')}
       >
         <SwiperSlide><img src="https://i.ibb.co/hCnt6cV/Banner-Cover.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
        
