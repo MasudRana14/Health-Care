@@ -82,18 +82,17 @@ const NavBar = () => {
             Contact
         </NavLink>
 
-        <NavLink
-            to="/register"
-            className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+            {
+                user ? "" :  <NavLink
+                to="/register"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+                }
+            >
+               Register
+            </NavLink>
+    
             }
-        >
-           Register
-        </NavLink>
-
-
-
-
 
 
 
