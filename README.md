@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: B:`ReferenceError: greetign is not defined`
+#### Answer: A:{}
 
-<i>Write your explanation here</i>
+<i>The Value Of greeting is taken as A{}, so the value of greeting is {} </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:  C: `"12"`
 
-<i>Write your explanation here</i>
+<i>Here sum values A and B are added. But sum is called between a number and a string. Number and string are never added. This is why there are 12 answers sitting side by side</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Here is the console.log to food. So the value of food is directly consoled to the value of food. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>Here the function return the string 'hi there'${name}. But the function is consoled and given the value(). so the value of name is coming undefined.. </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Here the value of nums is 0, 1, 2, 3. num is forEach in (num). forEach basically calls a call back function for each element of an array in ascending order. Here the big number is 3 ans so the ans is 3.</i>
 
 </p>
 </details>
