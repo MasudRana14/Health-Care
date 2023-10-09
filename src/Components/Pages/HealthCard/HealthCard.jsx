@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import PropTypes from 'prop-types'; 
 
 const HealthCard = ({ card }) => {
 
@@ -40,5 +41,10 @@ const HealthCard = ({ card }) => {
         </div>
     );
 };
+
+HealthCard.propTypes = {
+    card: PropTypes.object.isRequired
+}
+
 
 export default HealthCard;

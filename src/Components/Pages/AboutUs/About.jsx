@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div className="mx-auto mb-16">
             <div className="">
-                <div className="hero" style={{ backgroundImage: 'url(https://i.ibb.co/qxgDnKG/banner-3.jpg)' }}>
+                <div className="hero" style={{ backgroundImage: 'url(https://i.ibb.co/NjBdLng/about.jpg)' }}>
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="w-1/2">
@@ -24,7 +24,7 @@ const About = () => {
             <div>
                 <p className="text-2xl text-center mt-14  font-medium">We serve small-and-mid-sized businesses and health insurance providers, across diverse industries—from major financial firms to manufacturing powerhouses, to public universities and nonprofits.
 
-                    Our benefits are designed to reward your employees for making healthy choices all year round. Since 2013, we’ve helped hundreds of other businesses figure out what their employees really need from a wellness program, whether that's motivation to exercise or an easier way to pay for gym memberships. </p>
+                    Our benefits are designed to reward your employees for making healthy choices all year round. Since 2013, we’ve helped hundreds of other businesses figure out what their employees really need from a wellness program, whether thats motivation to exercise or an easier way to pay for gym memberships. </p>
 
             </div>
 

@@ -9,6 +9,7 @@ import OurTeam from "../Pages/TeamMember/OurTeam";
 import Contact from "../Pages/Contact/Contact";
 import OurBlog from "../Pages/OurBlog/OurBlog";
 import PrivateRoute from "./PrivateRoute";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 
@@ -17,6 +18,7 @@ import PrivateRoute from "./PrivateRoute";
         {
           path: "/",
           element: <MainLayout></MainLayout>,
+          errorElement:<ErrorPage></ErrorPage>,
           children:[
             {
                 path: "/",
@@ -38,7 +40,7 @@ import PrivateRoute from "./PrivateRoute";
             },
             {
               path:"/about",
-              element:<PrivateRoute><About></About></PrivateRoute>
+              element:<About></About>
             },
             {
               path:"/team",
@@ -46,7 +48,7 @@ import PrivateRoute from "./PrivateRoute";
             },
             {
               path:"/contact",
-              element: <Contact></Contact>
+              element: <PrivateRoute><Contact></Contact></PrivateRoute>
             },
             {
               path:"/blog",

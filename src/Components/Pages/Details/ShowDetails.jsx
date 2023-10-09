@@ -1,3 +1,7 @@
+import PropTypes from 'prop-types';
+
+
+
 
 const ShowDetails = ({ show }) => {
 
@@ -40,5 +44,10 @@ const ShowDetails = ({ show }) => {
         </div>
     );
 };
+
+ShowDetails.propTypes = {
+    show: PropTypes.object.isRequired
+}
+
 
 export default ShowDetails;

@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
 
 
-            <footer className="footer p-10 bg-green-200 text-base-content">
+            <footer className="footer p-10 bg-blue-100 text-base-content">
                 <aside>
                    <img className="w-20" src="https://i.ibb.co/NY2DBcw/pngegg.png" alt="" />
                    <h3 className="text-3xl font-bold text-indigo-600">Health <span className="text-lime-600">Care</span></h3>
@@ -14,6 +14,7 @@ const Footer = () => {
                     
                     <a className="link link-hover">Home</a>
                     <a className="link link-hover">About Us</a>
+                    <a className="link link-hover">Blog</a>
                     <a className="link link-hover">Our Event</a>
                     <a className="link link-hover">Price Plan</a>
                 </nav>

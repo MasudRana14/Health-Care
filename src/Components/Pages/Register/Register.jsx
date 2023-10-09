@@ -27,8 +27,7 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user)
-                userProfile(name,photo)
-                
+                userProfile(name,photo)  
                 swal("Good job!", "Register Successfully", "success");
                
             })

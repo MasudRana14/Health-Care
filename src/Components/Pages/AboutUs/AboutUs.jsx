@@ -11,7 +11,7 @@ const AboutUs = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-16">
         {/* Card 1  */}
-                <div className="card w-96 bg-blue-100 shadow-xl">
+                <div className="card w-96 bg-green-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/b1N0jhX/Happy-and-Healthy-Expo.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-bold">
@@ -25,7 +25,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* Card 2  */}
-                <div className="card w-96 bg-blue-100 shadow-xl">
+                <div className="card w-96 bg-green-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/x58LvQB/Fit-for-Life-Festival.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-bold">
@@ -39,7 +39,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* Card 3  */}
-                <div className="card w-96 bg-blue-100 shadow-xl">
+                <div className="card w-96 bg-green-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/5BMkP8h/Health-Discovery-Fair.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title font-bold">

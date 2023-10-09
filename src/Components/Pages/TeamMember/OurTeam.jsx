@@ -86,7 +86,7 @@ const OurTeam = () => {
                 
             </div>
 
-        <h1 className="text-center text-3xl font-semibold mb-16 mt-12 border-2 bg-blue-100">We assure you of our best service at all <br /> times vs assuring you of our best services always</h1>
+        <h1 className="text-center text-3xl font-semibold mb-16 mt-12 border-2 bg-green-100">We assure you of our best service at all <br /> times vs assuring you of our best services always</h1>
 
         </div>
     );

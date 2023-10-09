@@ -24,11 +24,12 @@ import 'swiper/css/scrollbar';
         onSwiper={(swiper) => ('')}
         onSlideChange={() => ('')}
       >
-        <SwiperSlide><img src="https://i.ibb.co/hCnt6cV/Banner-Cover.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
+       
+        <SwiperSlide><img src=" https://i.ibb.co/qxgDnKG/banner-3.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
        
         <SwiperSlide><img src="https://i.ibb.co/Pr82bLg/Banner-2.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
 
-        <SwiperSlide><img src="https://i.ibb.co/qxgDnKG/banner-3.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
+        <SwiperSlide><img src="https://i.ibb.co/hCnt6cV/Banner-Cover.jpg" alt="" style={{width:"100%", height:"500px"}} /></SwiperSlide>
    
       </Swiper>
     );

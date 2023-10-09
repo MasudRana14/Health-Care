@@ -82,6 +82,15 @@ const NavBar = () => {
             Contact
         </NavLink>
 
+        <NavLink
+            to="/register"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+            }
+        >
+           Register
+        </NavLink>
+
 
 
 
@@ -126,8 +135,10 @@ const NavBar = () => {
                             {user.email}
                         </h2>
                         </div>
+                        
                         <div className="avatar">
                             <div className="w-9 rounded-full">
+                            
                                 <img src={user?.photoURL} />
                                 
                             </div>
